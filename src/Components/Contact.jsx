@@ -9,7 +9,7 @@ const Contact = () => {
     <div className="container flex flex-col items-center max-w-6xl mx-auto">
         <h2 className="uppercase text-2xl mb-4 font-medium md:mb-8 md:text-3xl lg:mb-12">Contact us</h2>
 
-        <p className="font-medium text-xl max-w-2xl text-center mb-4 md:mb-8 lg:mb-12 mx-2 md:mx-0">{CONTACT_INFO.text}</p>
+        <p className="font-medium text-sm md:text-xl max-w-2xl text-center mb-4 md:mb-8 lg:mb-12 mx-2 md:mx-0">{CONTACT_INFO.text}</p>
 
         <div className="mt-4 lg:mt-0 px-8 lg:px-0 w-full lg:w-5xl mx-auto flex flex-col space-y-6 lg:flex-row lg:space-y-0 justify-between">
 

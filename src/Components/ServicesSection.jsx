@@ -2,9 +2,9 @@ import { SERVICES_CONTENT } from "../constants"
 
 const ServicesSection = () => {
   return (
-    <section className="mt-16 pb-2 text-neutral-900 border-b border-neutral-400 lg:pb-12">
+    <section className="mt-16 pb-2 text-neutral-900 border-b border-neutral-400 lg:pb-12 flex justify-center">
         <div className="services-container flex flex-col items-center">
-            <h2 className="uppercase text-2xl mb-8 font-md md:mb-12 md:text-3xl lg:mb-16">our home renovations services</h2>
+            <h2 className="uppercase text-2xl text-center mb-8 font-md md:mb-12 md:text-3xl lg:mb-16">our home renovations services</h2>
 
             {SERVICES_CONTENT.map((e,indx)=>{
                 return <div key={indx} className='mb-12 flex flex-col space-y-4 px-4 md:px-6 md:space-y-4 lg:px-0 lg:flex-row lg:mb-4 sm:space-y-2 sm:mb-16 '>
