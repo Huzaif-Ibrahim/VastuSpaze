@@ -10,7 +10,7 @@ const Reviews = () => {
             <div className="grid gap-x-4 gap-y-8 grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-3 px-4 md:px-0">
                 {REVIEWS.reviews.map((e,indx)=>{
                     return <div key={indx} className="border border-neutral-500 rounded-2xl py-12 px-8 flex flex-col space-y-8 justify-between">
-                        <p className="font-semibold">{e.review}</p>
+                        <p className="font-light">{e.review}</p>
                         <div className="flex space-x-4 justify-center items-center">
                             <img src={e.image} alt={e.name} className="h-12 w-12 rounded-full" />
                             <div className="flex flex-col">
