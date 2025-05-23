@@ -34,7 +34,7 @@ const Navbar = () => {
                     <ul className='flex flex-col space-y-6 font-medium text-xl'>
                         {LINKS.map((e,indx)=>{
                             return <li key={indx}>
-                                <a href={e.link} onClick={()=>setIsMenu(false)} >{e.name}</a>
+                                <a href={e.link} onClick={()=>setIsMenu(false)} className='font-light'>{e.name}</a>
                             </li>
                         })}
                     </ul>
