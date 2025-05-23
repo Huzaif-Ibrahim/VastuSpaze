@@ -14,7 +14,7 @@ const ServicesSection = () => {
 
                     <div className={`services-info w-full flex flex-col sm:space-y-2 lg:w-1/2 ${indx%2===0?'lg:pl-4':'lg:pr-4'}`}>
                         <h6 className="text-lg font-medium sm:text-2xl">{e.title}</h6>
-                        <p className="text-md font-medium sm:text-lg">{e.description}</p>
+                        <p className="text-md font-light sm:text-lg">{e.description}</p>
                     </div>
                 </div>
             })}
