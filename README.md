@@ -35,6 +35,7 @@ This project is suitable for portfolios, client demos, and frontend practice.
 - Services / renovation offerings section
 - About & value proposition section
 - Call-to-action (CTA)
+- Attractive hover effects.
 - Clean layout with modern spacing
 - Mobile, tablet, and desktop friendly
 
@@ -47,19 +48,24 @@ vastuspace/
 ├── src/
 │   ├── components/
 │   │   ├── Navbar.jsx
-│   │   ├── Hero.jsx
-│   │   ├── Services.jsx
+│   │   ├── HeroSection.jsx
+│   │   ├── Portfolio.jsx
+│   │   ├── Reviews.jsx
+│   │   ├── ServicesSection.jsx
 │   │   ├── About.jsx
 │   │   ├── Contact.jsx
 │   │   └── Footer.jsx
+|   ├── assets/
+|   ├── constants/
 │   ├── App.jsx
 │   ├── main.jsx
 │   └── index.css
 ├── public/
-├── tailwind.config.js
-├── postcss.config.js
+├── eslint.config.js
+├── .gitignore
 ├── vite.config.js
 ├── package.json
+├── package-lock.json
 └── README.md
 ```
 
@@ -72,8 +78,8 @@ Follow these steps to run the project locally:
 ### 1️⃣ Clone the repository
 
 ```
-git clone https://github.com/your-username/vastuspace.git
-cd vastuspace
+git clone https://github.com/Huzaif-Ibrahim/VastuSpaze.git
+cd VastuSpaze
 ```
 
 ### 2️⃣ Install dependencies
@@ -96,13 +102,18 @@ Open `http://localhost:5173` in your browser.
 
 - Tailwind CSS is used for all styling
 - Utility classes are written directly in JSX
-- Custom configurations are defined in `tailwind.config.js`
+
+---
+##👉🏻Live Preview
+
+<https://vastu-spaze-ten.vercel.app>
 
 ---
 
 ## 📸 Preview
 
-> Add screenshots or a live demo link here
+[](/src/assets/screenshot-1.png)
+[](/src/assets/screenshot-2.png)
 
 ---
 
