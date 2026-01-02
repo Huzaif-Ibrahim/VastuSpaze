@@ -112,8 +112,8 @@ Open `http://localhost:5173` in your browser.
 
 ## 📸 Preview
 
-[](/src/assets/screenshot-1.png)
-[](/src/assets/screenshot-2.png)
+![](/src/assets/screenshot-1.png)
+![](/src/assets/screenshot-2.png)
 
 ---
 
