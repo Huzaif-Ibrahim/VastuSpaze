@@ -132,7 +132,6 @@ Open `http://localhost:5173` in your browser.
 - Contact form with backend integration
 - SEO optimization
 - Dark mode
-- Deployment on Vercel / Netlify
 
 ---
 
